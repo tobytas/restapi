@@ -5,8 +5,7 @@ import java.lang.annotation.RetentionPolicy;
 
 import javax.inject.Scope;
 
-@SuppressWarnings("WeakerAccess")
 @Scope
 @Retention(RetentionPolicy.RUNTIME)
-public @interface MainViewModelScope {
+public @interface ApplicationScope {
 }
